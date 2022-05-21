@@ -1,0 +1,362 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.API\\QR.LeaveManagement.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.API\\QR.LeaveManagement.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.API\\QR.LeaveManagement.API.csproj",
+        "projectName": "QR.LeaveManagement.API",
+        "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.API\\QR.LeaveManagement.API.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj"
+              },
+              "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Domain\\QR.LeaveManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Domain\\QR.LeaveManagement.Domain.csproj"
+              },
+              "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Infrastructure\\QR.LeaveManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Infrastructure\\QR.LeaveManagement.Infrastructure.csproj"
+              },
+              "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Persistence\\QR.LeaveManagement.Persistence.csproj": {
+                "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Persistence\\QR.LeaveManagement.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj",
+        "projectName": "QR.LeaveManagement.Application",
+        "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Domain\\QR.LeaveManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Domain\\QR.LeaveManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Domain\\QR.LeaveManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Domain\\QR.LeaveManagement.Domain.csproj",
+        "projectName": "QR.LeaveManagement.Domain",
+        "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Domain\\QR.LeaveManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Infrastructure\\QR.LeaveManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Infrastructure\\QR.LeaveManagement.Infrastructure.csproj",
+        "projectName": "QR.LeaveManagement.Infrastructure",
+        "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Infrastructure\\QR.LeaveManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Persistence\\QR.LeaveManagement.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Persistence\\QR.LeaveManagement.Persistence.csproj",
+        "projectName": "QR.LeaveManagement.Persistence",
+        "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Persistence\\QR.LeaveManagement.Persistence.csproj",
+        "packagesPath": "C:\\Users\\owner\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj": {
+                "projectPath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
