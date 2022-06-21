@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace QR.LeaveManagement.Application.Features.LeaveAllocations.Handlers.Queries
 {
-    public class GetAllocationDetailRequestHandler: IRequestHandler<GetAllocationDetailRequest, LeaveAllocationDTO>
+    public class GetAllocationDetailRequestHandler: IRequestHandler<GetLeaveAllocationDetailRequest, LeaveAllocationDTO>
     {
 
         private readonly ILeaveAllocationRepository _leaveAllocationtRepository;
@@ -24,7 +24,7 @@ namespace QR.LeaveManagement.Application.Features.LeaveAllocations.Handlers.Quer
             _mapper = mapper;
         }
 
-        public async Task<LeaveAllocationDTO> Handle(GetAllocationDetailRequest request, CancellationToken cancellationToken)
+        public async Task<LeaveAllocationDTO> Handle(GetLeaveAllocationDetailRequest request, CancellationToken cancellationToken)
         {
             var leaveAllocation = await _leaveAllocationtRepository.GetleaveAllocationWithDetails(request.Id);
            

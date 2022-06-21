@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "QR.LeaveManagement.API/1.0.0": {
         "dependencies": {
+          "MediatR": "10.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.17",
           "QR.LeaveManagement.Application": "1.0.0",
           "QR.LeaveManagement.Domain": "1.0.0",
