@@ -11,12 +11,14 @@ C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\FluentValidation.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Humanizer.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\MediatR.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\MediatR.Contracts.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
@@ -78,5 +80,3 @@ C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\obj\Debug\net5.0\ref\QR.LeaveManagement.API.dll
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\obj\Debug\net5.0\QR.LeaveManagement.API.pdb
 C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\obj\Debug\net5.0\QR.LeaveManagement.API.genruntimeconfig.cache
-C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Humanizer.dll
-C:\Users\owner\Documents\KennyProjects\QR.LeaveManagement\QR.LeaveManagement.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
