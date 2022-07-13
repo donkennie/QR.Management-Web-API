@@ -32,15 +32,18 @@ namespace QR.LeaveManagement.Application.Features.LeaveAllocations.Handlers.Comm
 
 
             var validator = new CreateLeaveAllocationDTOValidator(_leaveTypeRepository);
+
             var validationResult = await validator.ValidateAsync(request.LeaveAllocationDTO);
 
             if (validationResult.IsValid == false)
             {
                 throw new ValidationException(validationResult);
             }
+
             var leaveAllocation = _mapper.Map<LeaveAllocation>(request.LeaveAllocationDTO);
 
             leaveAllocation = await _leaveAllocationRepository.Add(leaveAllocation);
+
             return leaveAllocation.Id;
         }
     }
