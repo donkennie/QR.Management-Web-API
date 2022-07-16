@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "HPxIbnkieBm8l7bjCStxIGpiZwRoJoqzCptDLBa+Hc/FCpEbm21SE53x2vLIb9v7Ac/ISeX45pbY6Otteq3qtw==",
+  "dgSpecHash": "6OrfQyx6oWc1PZ0JzgzJZkP33sBaTz7yuIJ9rYlnLlKgUIdt0+R0GgdbZrh4zSlZxkUGxvg63qsO9Xji6aclcg==",
   "success": true,
   "projectFilePath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.API\\QR.LeaveManagement.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\owner\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
-    "C:\\Users\\owner\\.nuget\\packages\\fluentvalidation\\11.0.0\\fluentvalidation.11.0.0.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.0\\fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

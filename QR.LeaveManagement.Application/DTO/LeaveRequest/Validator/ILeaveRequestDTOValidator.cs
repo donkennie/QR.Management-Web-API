@@ -16,7 +16,7 @@ namespace QR.LeaveManagement.Application.DTO.LeaveType.Validators
         {
             _leaveTypeRepository = leaveTypeRepository;
 
-            RuleFor(p => p.StartDate)
+            RuleFor(p => p.StartDate)   
                .LessThan(p => p.EndDate).WithMessage("{PropertyName} must be before {ComparisonValue}");
 
             RuleFor(p => p.EndDate)

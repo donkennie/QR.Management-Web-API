@@ -40,17 +40,17 @@
           }
         }
       },
-      "FluentValidation/11.0.0": {
+      "FluentValidation/11.1.0": {
         "runtime": {
           "lib/netstandard2.1/FluentValidation.dll": {
             "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.0.0.0"
+            "fileVersion": "11.1.0.0"
           }
         }
       },
       "FluentValidation.DependencyInjectionExtensions/11.0.0": {
         "dependencies": {
-          "FluentValidation": "11.0.0",
+          "FluentValidation": "11.1.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -761,6 +761,7 @@
       "QR.LeaveManagement.Application/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "FluentValidation": "11.1.0",
           "FluentValidation.DependencyInjectionExtensions": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "QR.LeaveManagement.Domain": "1.0.0"
@@ -799,12 +800,12 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512"
     },
-    "FluentValidation/11.0.0": {
+    "FluentValidation/11.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cD0VaOQfVZGxp3UFBDET5KztMe1W0QUgk7vP/e1zus0ofALqab5/B5S319+XEFvhw0KEStS3yfCDGpvQM10C6A==",
-      "path": "fluentvalidation/11.0.0",
-      "hashPath": "fluentvalidation.11.0.0.nupkg.sha512"
+      "sha512": "sha512-Ld7w+2jOmnhQqFkngEGuEWTRa5j6u4Xzli7jKxRtbA5PtuHHcpin01qxvxYL0LomeJuzRMGAOURu2rKONdjKQA==",
+      "path": "fluentvalidation/11.1.0",
+      "hashPath": "fluentvalidation.11.1.0.nupkg.sha512"
     },
     "FluentValidation.DependencyInjectionExtensions/11.0.0": {
       "type": "package",

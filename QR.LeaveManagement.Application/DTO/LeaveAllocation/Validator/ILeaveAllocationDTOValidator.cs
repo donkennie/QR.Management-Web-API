@@ -6,7 +6,7 @@ using System.Text;
 
 namespace QR.LeaveManagement.Application.DTO.LeaveAllocation.Validator
 {
-    public class ILeaveAllocationDTOValidator: AbstractValidator<ILeaveAllocationDTO>
+    public class ILeaveAllocationDTOValidator : AbstractValidator<ILeaveAllocationDTO>
     {
 
 
@@ -31,6 +31,9 @@ namespace QR.LeaveManagement.Application.DTO.LeaveAllocation.Validator
 
                 })
                 .WithMessage("{PropertyName does not exist. }");
+
+
         }
+
     }
 }

@@ -13,5 +13,7 @@ namespace QR.LeaveManagement.Application.Contracts.Persistence
         Task<LeaveAllocation> GetleaveAllocationWithDetails(int id);
 
         Task<List<LeaveAllocation>> GetleaveAllocationsWithDetails();
+
+
     }
 }

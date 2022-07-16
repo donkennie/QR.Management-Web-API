@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "C96TFjLrDYBEKdPnsxE0QmBygNjNoPPEpD8cfYcoFibhyg8TksWX1LDvRk8x+ROLQ+HX7sEJj5+c36srfY6aEQ==",
+  "dgSpecHash": "s9zeoNe0N8EdZtVd+DpQZBIGODagTghLKG5VE5+PklhTVWN4dueKjJWAhzZVGrfPvuohicA8+8/mCStBunmyCQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\owner\\Documents\\KennyProjects\\QR.LeaveManagement\\QR.LeaveManagement.Application\\QR.LeaveManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\owner\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
-    "C:\\Users\\owner\\.nuget\\packages\\fluentvalidation\\11.0.0\\fluentvalidation.11.0.0.nupkg.sha512",
+    "C:\\Users\\owner\\.nuget\\packages\\fluentvalidation\\11.1.0\\fluentvalidation.11.1.0.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.0\\fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\owner\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
