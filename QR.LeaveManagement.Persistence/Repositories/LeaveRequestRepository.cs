@@ -41,6 +41,6 @@ namespace QR.LeaveManagement.Persistence.Repositories
                .FirstOrDefaultAsync(q => q.Id == id);
 
             return leaveRequest;
-        }
+        } 
     }
 }
